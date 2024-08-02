@@ -281,6 +281,7 @@ dependencies = [
 [[package]]
 name = "http_input"
 version = "0.1.0"
+source = "git+https://github.com/userfriendanonymous/http-input-rs.git#7397d84d2e47e57bf664d93b2eae08c0ff3fd38a"
 dependencies = [
  "bytes",
  "http",

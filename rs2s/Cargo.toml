@@ -5,6 +5,6 @@ edition = "2021"
 
 [dependencies]
 http = "1.1.0"
-http_input = { version = "0.1.0", path = "../../http_input" }
+http_input = { git = "https://github.com/userfriendanonymous/http-input-rs.git" }
 serde = { version = "1.0.203", features = ["derive"] }
 serde_json = "1.0.117"
